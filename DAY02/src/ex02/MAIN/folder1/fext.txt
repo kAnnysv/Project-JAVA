@@ -1,0 +1,101 @@
+fffffff
+ghyj76
+ddfff
+
+ffffff
+12 34 56 78vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvfverttttttttyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+
+
+Init commit
+Administrator authored 1 year ago
+bf5109da
+Java_Bootcamp.Day02-1
+README.md
+README.md
+9.12 KiB
+Day 02 – Java bootcamp
+IO, Files
+Takeways: Today you will learn how to use input/output in Java and implement programs to manipulate a file system
+
+Contents
+Chapter I
+1.1. Preamble
+Chapter II
+2.1. General Rules
+Chapter III
+3.1. Exercise 00 – File Signatures
+Chapter IV
+4.1. Exercise 01 – Words
+Chapter V
+5.1. Exercise 02 – File Manager
+Chapter I
+Preamble
+Input/output operations play an important role in corporate system development. It is often necessary to implement functionality for loading and processing user files, sending various documents by mail, etc.
+
+Apparently, input/output never boils down to working with a file system. Any client/server interaction between applications implies input/output operations. For example, Java Servlets technology used in web development enables to format HTML pages using PrintWriter class.
+
+It is important to remember that the input/output functionality is not limited to Java IO stack. There are many libraries that greatly simplify interaction with data flows. Apache Commons IO is one of them.
+
+Chapter II
+General Rules
+Use this page as the only reference. Do not listen to any rumors and speculations about how to prepare your solution.
+
+Now there is only one Java version for you, 1.8. Make sure that compiler and interpreter of this version are installed on your machine.
+
+You can use IDE to write and debug the source code.
+
+The code is read more often than written. Read carefully the document where code formatting rules are given. When performing each task, make sure you follow the generally accepted Oracle standards.
+
+Comments are not allowed in the source code of your solution. They make it difficult to read the code. The only format of comments allowed is Javadoc.
+
+Pay attention to the permissions of your files and directories.
+
+To be assessed, your solution must be in your GIT repository.
+
+Your solutions will be evaluated by your bootcamp mates.
+
+You should not leave in your "src" directory any other file than those explicitly specified by the exercise instructions. It is recommended that you modify your .gitignore to avoid accidents.
+
+When you need to get precise output in your programs, it is forbidden to display a precalculated output instead of performing the exercise correctly.
+
+Have a question? Ask your neighbor on the right. Otherwise, try with your neighbor on the left.
+
+Your reference manual: mates / Internet / Google. And one more thing. There's an answer to any question you may have on Stackoverflow. Learn how to ask questions correctly.
+
+Read the examples carefully. They may require things that are not otherwise specified in the subject.
+
+Use System.out for output
+
+And may the Force be with you!
+
+Never leave that till tomorrow which you can do today ;)
+
+Chapter III
+Exercise 00 – File Signatures
+Exercise 00: File Signatures
+Turn-in	directory ex00
+Files to turn-in	*.java, signatures.txt
+Permissions
+Recommended types	Java Collections API (List<T>, Map<K, V>, etc.), InputStream, OutputStream, FileInputStream, FileOutputStream
+Input/output classes in Java are represented by a broad hierarchy. The key classes describing byte input/output behavior are abstract classes InputStream and OutputStream. They do not implement specific mechanisms for byte flows processing, rather delegate them to their subclasses, such as FileInput
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
